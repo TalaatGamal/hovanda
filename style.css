@@ -15,12 +15,18 @@ body{
     /* height: 1000vh; */
 }
 
-@media (max-width: 768px) /* (max-width: 768px)*/{
+@media (max-width: 630px) /* (max-width: 768px)*/{
   body{
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: #202020;
-    width: 100vw;
+    background-color: #ff0000;
+    overflow: hidden;
+  }
+  #cont-mob{
+    background-color: #ff0000;
+    max-width: 100vw;
+    size: 10vw;
+    overflow: hidden;
   }
 }
 .content1{
@@ -39,7 +45,6 @@ body{
   padding-right: 40px;
   margin: 10px;
   max-width: 600px;
-  min-width: 650px;
   border-radius: 20px;
   text-align: left;
   color: rgba(255, 255, 255, 0.662);
