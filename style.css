@@ -47,23 +47,20 @@ body{
   background-color: #0091ff12;
   color: #ffffff;
   text-align: center;
-  min-width: max-content;
+  width: max-content;
   padding: 20px;
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 20px;
   box-shadow: #0080ff 2px 2px 20px 2px;
-  position: relative;
-  /* left: 33vw; */
-  /* position: absolute;
-  left: 800px;
-  top: 200px; */
+  left: 33vw;
+  position: absolute;
+  left: 100px;
+  top: 85vh;
 }
 #robo img{
- min-width: 25vw;
- min-height: 20vh;
- max-width: 25vw;
- max-height: 20vh;
+ width: 30vw;
+ height: 20vh;
 }
 }
 .content1{
