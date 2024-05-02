@@ -55,11 +55,11 @@ body{
   box-shadow: #0080ff 2px 2px 20px 2px;
   left: 33vw;
   position: absolute;
-  left: 100px;
+  left: 60px;
   top: 85vh;
 }
 #robo img{
- width: 30vw;
+ width: 35vw;
  height: 20vh;
 }
 }
